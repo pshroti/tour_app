@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DA27F01244FB491002FD4ED /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA27F00244FB491002FD4ED /* WebKit.framework */; };
+		1DA27F03244FC8E8002FD4ED /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 1DA27F02244FC8E8002FD4ED /* AppIcon.appiconset */; };
+		1DC8E6BA244FAE2E008F0E76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8E6B9244FAE2E008F0E76 /* AppDelegate.swift */; };
+		1DC8E6BC244FAE2E008F0E76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8E6BB244FAE2E008F0E76 /* SceneDelegate.swift */; };
+		1DC8E6BE244FAE2E008F0E76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8E6BD244FAE2E008F0E76 /* ViewController.swift */; };
+		1DC8E6C1244FAE2E008F0E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8E6BF244FAE2E008F0E76 /* Main.storyboard */; };
+		1DC8E6C3244FAE31008F0E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8E6C2244FAE31008F0E76 /* Assets.xcassets */; };
+		1DC8E6C6244FAE31008F0E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC8E6C4244FAE31008F0E76 /* LaunchScreen.storyboard */; };
+		1DC8E6D1244FAE31008F0E76 /* Reality_GileadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8E6D0244FAE31008F0E76 /* Reality_GileadTests.swift */; };
+		1DC8E6DC244FAE31008F0E76 /* Reality_GileadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC8E6DB244FAE31008F0E76 /* Reality_GileadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DC8E6CD244FAE31008F0E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC8E6AE244FAE2E008F0E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC8E6B5244FAE2E008F0E76;
+			remoteInfo = "Reality@Gilead";
+		};
+		1DC8E6D8244FAE31008F0E76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DC8E6AE244FAE2E008F0E76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC8E6B5244FAE2E008F0E76;
+			remoteInfo = "Reality@Gilead";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA27F00244FB491002FD4ED /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1DA27F02244FC8E8002FD4ED /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
+		1DC8E6B6244FAE2E008F0E76 /* Reality@Gilead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality@Gilead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8E6B9244FAE2E008F0E76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DC8E6BB244FAE2E008F0E76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1DC8E6BD244FAE2E008F0E76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1DC8E6C0244FAE2E008F0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DC8E6C2244FAE31008F0E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC8E6C5244FAE31008F0E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DC8E6C7244FAE31008F0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8E6CC244FAE31008F0E76 /* Reality@GileadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reality@GileadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8E6D0244FAE31008F0E76 /* Reality_GileadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reality_GileadTests.swift; sourceTree = "<group>"; };
+		1DC8E6D2244FAE31008F0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC8E6D7244FAE31008F0E76 /* Reality@GileadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reality@GileadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC8E6DB244FAE31008F0E76 /* Reality_GileadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reality_GileadUITests.swift; sourceTree = "<group>"; };
+		1DC8E6DD244FAE31008F0E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC8E6B3244FAE2E008F0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA27F01244FB491002FD4ED /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6C9244FAE31008F0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6D4244FAE31008F0E76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA27EFF244FB491002FD4ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA27F00244FB491002FD4ED /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DC8E6AD244FAE2E008F0E76 = {
+			isa = PBXGroup;
+			children = (
+				1DC8E6B8244FAE2E008F0E76 /* Reality@Gilead */,
+				1DC8E6CF244FAE31008F0E76 /* Reality@GileadTests */,
+				1DC8E6DA244FAE31008F0E76 /* Reality@GileadUITests */,
+				1DC8E6B7244FAE2E008F0E76 /* Products */,
+				1DA27EFF244FB491002FD4ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC8E6B7244FAE2E008F0E76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8E6B6244FAE2E008F0E76 /* Reality@Gilead.app */,
+				1DC8E6CC244FAE31008F0E76 /* Reality@GileadTests.xctest */,
+				1DC8E6D7244FAE31008F0E76 /* Reality@GileadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC8E6B8244FAE2E008F0E76 /* Reality@Gilead */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8E6B9244FAE2E008F0E76 /* AppDelegate.swift */,
+				1DC8E6BB244FAE2E008F0E76 /* SceneDelegate.swift */,
+				1DC8E6BD244FAE2E008F0E76 /* ViewController.swift */,
+				1DC8E6BF244FAE2E008F0E76 /* Main.storyboard */,
+				1DC8E6C2244FAE31008F0E76 /* Assets.xcassets */,
+				1DA27F02244FC8E8002FD4ED /* AppIcon.appiconset */,
+				1DC8E6C4244FAE31008F0E76 /* LaunchScreen.storyboard */,
+				1DC8E6C7244FAE31008F0E76 /* Info.plist */,
+			);
+			path = "Reality@Gilead";
+			sourceTree = "<group>";
+		};
+		1DC8E6CF244FAE31008F0E76 /* Reality@GileadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8E6D0244FAE31008F0E76 /* Reality_GileadTests.swift */,
+				1DC8E6D2244FAE31008F0E76 /* Info.plist */,
+			);
+			path = "Reality@GileadTests";
+			sourceTree = "<group>";
+		};
+		1DC8E6DA244FAE31008F0E76 /* Reality@GileadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DC8E6DB244FAE31008F0E76 /* Reality_GileadUITests.swift */,
+				1DC8E6DD244FAE31008F0E76 /* Info.plist */,
+			);
+			path = "Reality@GileadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC8E6B5244FAE2E008F0E76 /* Reality@Gilead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8E6E0244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@Gilead" */;
+			buildPhases = (
+				1DC8E6B2244FAE2E008F0E76 /* Sources */,
+				1DC8E6B3244FAE2E008F0E76 /* Frameworks */,
+				1DC8E6B4244FAE2E008F0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Reality@Gilead";
+			productName = "Reality@Gilead";
+			productReference = 1DC8E6B6244FAE2E008F0E76 /* Reality@Gilead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DC8E6CB244FAE31008F0E76 /* Reality@GileadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8E6E3244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@GileadTests" */;
+			buildPhases = (
+				1DC8E6C8244FAE31008F0E76 /* Sources */,
+				1DC8E6C9244FAE31008F0E76 /* Frameworks */,
+				1DC8E6CA244FAE31008F0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC8E6CE244FAE31008F0E76 /* PBXTargetDependency */,
+			);
+			name = "Reality@GileadTests";
+			productName = "Reality@GileadTests";
+			productReference = 1DC8E6CC244FAE31008F0E76 /* Reality@GileadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DC8E6D6244FAE31008F0E76 /* Reality@GileadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC8E6E6244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@GileadUITests" */;
+			buildPhases = (
+				1DC8E6D3244FAE31008F0E76 /* Sources */,
+				1DC8E6D4244FAE31008F0E76 /* Frameworks */,
+				1DC8E6D5244FAE31008F0E76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DC8E6D9244FAE31008F0E76 /* PBXTargetDependency */,
+			);
+			name = "Reality@GileadUITests";
+			productName = "Reality@GileadUITests";
+			productReference = 1DC8E6D7244FAE31008F0E76 /* Reality@GileadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC8E6AE244FAE2E008F0E76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Prasanna Shroti";
+				TargetAttributes = {
+					1DC8E6B5244FAE2E008F0E76 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					1DC8E6CB244FAE31008F0E76 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1DC8E6B5244FAE2E008F0E76;
+					};
+					1DC8E6D6244FAE31008F0E76 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 1DC8E6B5244FAE2E008F0E76;
+					};
+				};
+			};
+			buildConfigurationList = 1DC8E6B1244FAE2E008F0E76 /* Build configuration list for PBXProject "Reality@Gilead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC8E6AD244FAE2E008F0E76;
+			productRefGroup = 1DC8E6B7244FAE2E008F0E76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC8E6B5244FAE2E008F0E76 /* Reality@Gilead */,
+				1DC8E6CB244FAE31008F0E76 /* Reality@GileadTests */,
+				1DC8E6D6244FAE31008F0E76 /* Reality@GileadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC8E6B4244FAE2E008F0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA27F03244FC8E8002FD4ED /* AppIcon.appiconset in Resources */,
+				1DC8E6C6244FAE31008F0E76 /* LaunchScreen.storyboard in Resources */,
+				1DC8E6C3244FAE31008F0E76 /* Assets.xcassets in Resources */,
+				1DC8E6C1244FAE2E008F0E76 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6CA244FAE31008F0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6D5244FAE31008F0E76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC8E6B2244FAE2E008F0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8E6BE244FAE2E008F0E76 /* ViewController.swift in Sources */,
+				1DC8E6BA244FAE2E008F0E76 /* AppDelegate.swift in Sources */,
+				1DC8E6BC244FAE2E008F0E76 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6C8244FAE31008F0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8E6D1244FAE31008F0E76 /* Reality_GileadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC8E6D3244FAE31008F0E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC8E6DC244FAE31008F0E76 /* Reality_GileadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DC8E6CE244FAE31008F0E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC8E6B5244FAE2E008F0E76 /* Reality@Gilead */;
+			targetProxy = 1DC8E6CD244FAE31008F0E76 /* PBXContainerItemProxy */;
+		};
+		1DC8E6D9244FAE31008F0E76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DC8E6B5244FAE2E008F0E76 /* Reality@Gilead */;
+			targetProxy = 1DC8E6D8244FAE31008F0E76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DC8E6BF244FAE2E008F0E76 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC8E6C0244FAE2E008F0E76 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DC8E6C4244FAE31008F0E76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC8E6C5244FAE31008F0E76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DC8E6DE244FAE31008F0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DC8E6DF244FAE31008F0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DC8E6E1244FAE31008F0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@Gilead/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-Gilead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DC8E6E2244FAE31008F0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@Gilead/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-Gilead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DC8E6E4244FAE31008F0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@GileadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-GileadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reality@Gilead.app/Reality@Gilead";
+			};
+			name = Debug;
+		};
+		1DC8E6E5244FAE31008F0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@GileadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-GileadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reality@Gilead.app/Reality@Gilead";
+			};
+			name = Release;
+		};
+		1DC8E6E7244FAE31008F0E76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@GileadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-GileadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reality@Gilead";
+			};
+			name = Debug;
+		};
+		1DC8E6E8244FAE31008F0E76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Reality@GileadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Gilead-Sciences-Inc..Reality-GileadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Reality@Gilead";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC8E6B1244FAE2E008F0E76 /* Build configuration list for PBXProject "Reality@Gilead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8E6DE244FAE31008F0E76 /* Debug */,
+				1DC8E6DF244FAE31008F0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8E6E0244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@Gilead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8E6E1244FAE31008F0E76 /* Debug */,
+				1DC8E6E2244FAE31008F0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8E6E3244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@GileadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8E6E4244FAE31008F0E76 /* Debug */,
+				1DC8E6E5244FAE31008F0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC8E6E6244FAE31008F0E76 /* Build configuration list for PBXNativeTarget "Reality@GileadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC8E6E7244FAE31008F0E76 /* Debug */,
+				1DC8E6E8244FAE31008F0E76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DC8E6AE244FAE2E008F0E76 /* Project object */;
+}
